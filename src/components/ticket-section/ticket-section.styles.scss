@@ -1,0 +1,23 @@
+$background-color: lightblue;
+$title-size: 100px;
+.section {
+    background-color: $background-color;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    // max-width: 100%;
+    .section-title {
+        position: absolute;
+        min-width: $title-size;
+        bottom: 0;
+        left: 0;
+        font-size: 1.8em;
+        // background-color: red;
+        transform: rotate(-90deg);
+        transform-origin: 10% 50%;
+    }
+
+}

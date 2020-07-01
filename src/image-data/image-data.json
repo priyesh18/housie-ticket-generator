@@ -1,0 +1,55 @@
+[
+        {
+            "section": "Gujarati",
+            "id": 1,
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Dhokla",
+                    "imageUrl": "Dhokla.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Khandvi",
+                    "imageUrl": "Dhokla.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Patra",
+                    "imageUrl": "Dhokla.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Khakhra",
+                    "imageUrl": "Dhokla.jpg"
+                }
+            ]
+        },
+        {
+            "section": "Italian",
+            "id": 2,
+            "items": [
+                {
+                    "id": 1,
+                    "name": "Pizza",
+                    "imageUrl": "Dhokla.jpg"
+                },
+                {
+                    "id": 2,
+                    "name": "Pasta",
+                    "imageUrl": "Dhokla.jpg"
+                },
+                {
+                    "id": 3,
+                    "name": "Lasagna",
+                    "imageUrl": "Dhokla.jpg"
+                },
+                {
+                    "id": 4,
+                    "name": "Bread",
+                    "imageUrl": "Dhokla.jpg"
+                }
+            ]
+        }
+
+]

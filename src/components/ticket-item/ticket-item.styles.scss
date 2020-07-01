@@ -1,0 +1,18 @@
+$img-size: 100px;
+
+
+.item-image {
+    max-height: $img-size;
+    max-width: $img-size;
+    border: 1px solid black;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+    img {
+        // height: $img-size;
+        max-height: $img-size;
+        flex-shrink:0;
+        min-width:100%;
+    }
+}
