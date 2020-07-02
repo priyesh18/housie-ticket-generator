@@ -33,7 +33,7 @@ if (module.parent == undefined) {
     // console.log(util.inspect(dirTree(process.argv[2], 1), false, null));
 
     let jsonTree = JSON.stringify(dirTree(process.argv[2], 1).items)
-    jsonTree = jsonTree.replace(/..\/public/g, '');
+    jsonTree = jsonTree.replace(/..\/public\//g, '');
 
     console.log(jsonTree);
 }
