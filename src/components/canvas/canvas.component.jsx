@@ -15,6 +15,9 @@ class Canvas extends React.Component {
         return (
             <div className="background">
         <Ticket items={data}/>
+        <Ticket items={data}/>
+        {/* <Ticket items={data}/>
+        <Ticket items={data}/> */}
 
     </div>
         )

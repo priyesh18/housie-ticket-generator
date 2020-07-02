@@ -1,18 +1,36 @@
-$img-size: 100px;
+$img-size: 80px;
 
-
-.item-image {
-    max-height: $img-size;
-    max-width: $img-size;
-    border: 1px solid black;
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-    img {
-        // height: $img-size;
-        max-height: $img-size;
-        flex-shrink:0;
-        min-width:100%;
+.item-container {
+    float: left;
+    position: relative;
+    max-width: 25%;
+    padding: 2px;
+    
+    .box {
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        z-index: 2;
+        background-color: white;
+        border: 1px solid black;
     }
+    .item-image {
+        max-height: $img-size;
+        width: $img-size;
+        border: 1px solid white;
+        display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+        img {
+            // height: $img-size;
+            max-height: $img-size;
+            flex-shrink:0;
+            min-width:100%;
+        }
+    } 
+    .item-name {
+        max-width: $img-size;
+    }   
 }
+

@@ -3,10 +3,11 @@ import './ticket-item.styles.scss';
 
 const TicketItem = ({ imageUrl, name}) => (
     <div className="item-container">
+        <div className="box"></div>
         <div className="item-image">
-            <img src={`${"/images/"+imageUrl}`} alt=""/>
+            <img src={`${imageUrl}`} alt=""/>
         </div>
-        <div>{ name }</div>
+        <div className="item-name">{ name }</div>
     </div>
 );
 

@@ -6,10 +6,9 @@ import TicketSection from '../ticket-section/ticket-section.component'
 const Ticket = ({ items }) => (
     <div className="layout">Ticket
     {console.log(items)}
-    {items.map(({section, id, items}) => {
+    {items.map(({name, id, items, color}) => {
         return (
-            
-            <TicketSection key={id} name={section} sectionItems={items}/>
+            <TicketSection key={id} name={name} color={color} sectionItems={items}/>
         )
     })}
     </div>
