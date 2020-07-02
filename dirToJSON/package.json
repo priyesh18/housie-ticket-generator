@@ -1,0 +1,12 @@
+{
+  "name": "dirtojson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node dirToJSON.js '../public/images' > image-data.json && cp image-data.json '../src/image-data/image-data.json'"
+  },
+  "author": "Priyesh Patel",
+  "license": "ISC"
+}
