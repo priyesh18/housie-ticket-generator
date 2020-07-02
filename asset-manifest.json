@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/housie-ticket-generator/static/css/main.e0e36cf4.chunk.css",
+    "main.js": "/github.io/housie-ticket-generator/static/js/main.8613d4f5.chunk.js",
+    "main.js.map": "/github.io/housie-ticket-generator/static/js/main.8613d4f5.chunk.js.map",
+    "runtime-main.js": "/github.io/housie-ticket-generator/static/js/runtime-main.6b2b31b7.js",
+    "runtime-main.js.map": "/github.io/housie-ticket-generator/static/js/runtime-main.6b2b31b7.js.map",
+    "static/js/2.625100c5.chunk.js": "/github.io/housie-ticket-generator/static/js/2.625100c5.chunk.js",
+    "static/js/2.625100c5.chunk.js.map": "/github.io/housie-ticket-generator/static/js/2.625100c5.chunk.js.map",
+    "index.html": "/github.io/housie-ticket-generator/index.html",
+    "precache-manifest.d25d279042ff02bec13407fb371c7632.js": "/github.io/housie-ticket-generator/precache-manifest.d25d279042ff02bec13407fb371c7632.js",
+    "service-worker.js": "/github.io/housie-ticket-generator/service-worker.js",
+    "static/css/main.e0e36cf4.chunk.css.map": "/github.io/housie-ticket-generator/static/css/main.e0e36cf4.chunk.css.map",
+    "static/js/2.625100c5.chunk.js.LICENSE.txt": "/github.io/housie-ticket-generator/static/js/2.625100c5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b2b31b7.js",
+    "static/js/2.625100c5.chunk.js",
+    "static/css/main.e0e36cf4.chunk.css",
+    "static/js/main.8613d4f5.chunk.js"
+  ]
+}
