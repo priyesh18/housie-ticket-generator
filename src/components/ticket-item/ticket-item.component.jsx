@@ -5,7 +5,11 @@ const TicketItem = ({ imageUrl, name}) => (
     <div className="item-container">
         <div className="box"></div>
         <div className="item-image">
-            <img src={`${imageUrl}`} alt=""/>
+            {/* Deploy */}
+        {/* <img src={`${imageUrl}`} alt=""/> */}
+
+        {/* local */}
+            <img src={'housie-ticket-generator/'+`${imageUrl}`} alt=""/>
         </div>
         <div className="item-name">{ name }</div>
     </div>
