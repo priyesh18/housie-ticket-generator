@@ -5,6 +5,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+  
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -32,5 +33,10 @@ ol, ul {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+@page {
+  size: A4; /* DIN A4 standard, Europe */
+  margin:0;
+  -webkit-print-color-adjust: exact;
 }
 

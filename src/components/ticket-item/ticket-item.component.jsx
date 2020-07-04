@@ -9,9 +9,9 @@ const TicketItem = ({ imageUrl, name}) => (
         {/* <img src={`${imageUrl}`} alt=""/> */}
 
         {/* local */}
-            <img src={'housie-ticket-generator/'+`${imageUrl}`} alt=""/>
+            <img src={`housie-ticket-generator/${imageUrl}`} alt=""/>
         </div>
-        <div className="item-name">{ name }</div>
+        <div className="item-name">{ name.toLowerCase() }</div>
     </div>
 );
 

@@ -31,6 +31,7 @@ $img-size: 80px;
     } 
     .item-name {
         max-width: $img-size;
+        text-transform: capitalize;
     }   
 }
 
