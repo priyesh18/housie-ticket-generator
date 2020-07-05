@@ -17,17 +17,18 @@ class MainPage extends React.Component {
 
 
     render() {
-        console.log(this.state.pool);
         return (
-            <div className="background">
-        <Ticket items={this.state.data}/>
-        <Callout />
-        
-        
-        
-        
+            <div className="container">
+                <Callout />
+                <div className="canvas">
+                    <Ticket items={this.state.data}/>
+                    <Ticket items={this.state.data}/>
+                    <Ticket items={this.state.data}/>
+                    {/* <Ticket items={this.state.data}/> */}
 
-    </div>
+                </div>
+
+            </div>
         )
     }
 }

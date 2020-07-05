@@ -1,6 +1,12 @@
 .layout {
     background-color: lightgoldenrodyellow;
-    // width: 50%;
-    // float: left;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-basis: 100%;
+    flex:1;
+    border: 1px solid black;
+    // width: 45%;
+    // height: 25em;
     
 }

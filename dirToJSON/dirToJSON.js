@@ -6,7 +6,7 @@ function dirTree(filename, id) {
     var stats = fs.lstatSync(filename),
         info = {
             path: filename,
-            dir: path.parent,
+            folder: path.dirname(filename).replace('images/',''),
             name: path.basename(filename).replace('.jpg', ''),
             id: id
         };

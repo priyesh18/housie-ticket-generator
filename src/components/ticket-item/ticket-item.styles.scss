@@ -1,6 +1,47 @@
 $img-size: 80px;
 
 .item-container {
+    // float: left;
+    // position: relative;
+    // width: 25%;
+    padding: 2px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .item-image {
+        position: relative;
+        .box {
+            position: absolute;
+            height: 10px;
+            width: 10px;
+            left: 0;
+            z-index: 2;
+            background-color: white;
+            border: 1px solid black;
+        }
+        img {
+            width: $img-size;
+            height: $img-size;
+            object-fit: cover;
+            // max-width: $img-size;
+            // height: $img-size;
+            // max-height: $img-size;
+            // flex-shrink:0;
+            // min-width:100%;
+        }
+    }
+
+    .item-name {
+        // max-width: $img-size;
+        text-transform: capitalize;
+    }   
+}
+
+/*
+$img-size: 80px;
+
+.item-container {
     float: left;
     position: relative;
     max-width: 25%;
@@ -34,4 +75,4 @@ $img-size: 80px;
         text-transform: capitalize;
     }   
 }
-
+*/

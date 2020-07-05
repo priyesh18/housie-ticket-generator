@@ -3,13 +3,10 @@ import './ticket-item.styles.scss';
 
 const TicketItem = ({ imageUrl, name}) => (
     <div className="item-container">
-        <div className="box"></div>
         <div className="item-image">
-            {/* Deploy */}
-        {/* <img src={`${imageUrl}`} alt=""/> */}
-
-        {/* local */}
-            <img src={`housie-ticket-generator/${imageUrl}`} alt=""/>
+            <div className="box"></div>
+                <img src={`housie-ticket-generator/${imageUrl}`} alt=""/>
+    
         </div>
         <div className="item-name">{ name.toLowerCase() }</div>
     </div>

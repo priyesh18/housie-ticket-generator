@@ -1,5 +1,6 @@
-$background-color: lightblue;
-$title-size: 100px;
+$background-color: #fff;
+$title-size: 1em;
+/*
 .section {
     // background-color: lighten($color: #000000, $amount: 0);
     padding: 5px;
@@ -14,10 +15,37 @@ $title-size: 100px;
         // min-width: $title-size;
         bottom: 0;
         left: 0;
-        font-size: 1.2em;
+        font-size: $title-size;
         // background-color: red;
         transform: rotate(-90deg);
         transform-origin: 0 0;
     }
 
 }
+
+*/
+.section {
+    padding: 5px;
+    padding-left: 30px;
+    background-color: $background-color;
+    position: relative;
+    overflow: hidden;
+    // max-width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    .section-title {
+        position: absolute;
+  
+        top: 45%;
+        left: 0;
+        font-size: $title-size;
+        transform: rotate(-90deg) translateX(-50%);
+        transform-origin: 0 0;
+    }
+
+}
+
