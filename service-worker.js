@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/housie-ticket-generator/precache-manifest.e544f2122a51482a920846128ba57c91.js"
+  "/housie-ticket-generator/precache-manifest.f7cbc77abf383f34361155356d635ee2.js"
 );
 
 self.addEventListener('message', (event) => {
