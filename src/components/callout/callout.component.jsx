@@ -23,7 +23,7 @@ class Callout extends React.Component {
         this.setState({
             data: [...this.state.data, selectedItem]
             .sort(
-                (item1, item2)=> (item1.folder.localeCompare(item2.folder))
+                (item1, item2)=> (item1.id.localeCompare(item2.id))
                 ),
             pool: prevPool, 
             selected: selectedItem
@@ -40,6 +40,7 @@ class Callout extends React.Component {
             </div>
             <button onClick={this.onCalloutClick}>Callout Next</button>
             <h2>Board</h2>
+            <p>(Items sorted by category and alphabetically)</p>
             <div className="board">
                 {
                     this.state.data.map(

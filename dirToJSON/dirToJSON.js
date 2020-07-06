@@ -1,15 +1,15 @@
 var fs = require('fs'),
     path = require('path')
 
-function dirTree(filename, id) {
+function dirTree(filename) {
    
     var stats = fs.lstatSync(filename),
         info = {
             path: filename,
             folder: path.dirname(filename).replace('images/',''),
-            name: path.basename(filename).replace('.jpg', ''),
-            id: id
+            name: path.basename(filename).replace('.jpg', '')
         };
+        info.id = info.folder+info.name;
 
     if (stats.isDirectory()) {
         info.type = "folder";
@@ -32,7 +32,7 @@ if (module.parent == undefined) {
     // var util = require('util');
     // console.log(util.inspect(dirTree(process.argv[2], 1), false, null));
 
-    let jsonTree = JSON.stringify(dirTree(process.argv[2], 1).items)
+    let jsonTree = JSON.stringify(dirTree(process.argv[2]).items)
     jsonTree = jsonTree.replace(/..\/public\//g, '');
 
     console.log(jsonTree);

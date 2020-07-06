@@ -31,7 +31,7 @@ class Canvas extends React.Component {
                 <h3>Generate Tickets</h3>
                 <div className="input-box">
                     Enter number of tickets: 
-                    <input type="number" placeholder="2" onChange={this.onCountChange}/>
+                    <input type="number" placeholder="2" onChange={this.onCountChange} step="2"/>
                     <button onClick={() => (window.print())}>Print</button>
 
                 </div>
