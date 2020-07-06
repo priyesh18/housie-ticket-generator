@@ -1,37 +1,17 @@
 import React from 'react';
 import './main-page.styles.scss';
-import Ticket from '../../components/ticket/ticket.component';
 
-import data from '../../image-data/image-data.json';
 import Callout from '../../components/callout/callout.component';
+import Canvas from '../../components/canvas/canvas.component';
 
-class MainPage extends React.Component {
-    constructor() {
-        super();
-        this.state = {
-            data: data, 
-           }
-        
-        
-    }
+const MainPage = () => (
 
-
-    render() {
-        return (
             <div className="container">
                 <Callout />
-                <div className="canvas">
-                    <Ticket items={this.state.data}/>
-                    <Ticket items={this.state.data}/>
-                    <Ticket items={this.state.data}/>
-                    {/* <Ticket items={this.state.data}/> */}
-
-                </div>
-
+                <Canvas />
             </div>
-        )
-    }
-}
+)
+
 
 
 export default MainPage;

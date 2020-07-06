@@ -1,10 +1,13 @@
-.background {
-    background-color: lightgray;
-    
-    height: 100vh;
-    // overflow: auto;
+.input-box, h3{
+    padding: 0.8em;
+    @media print {
+        display: none;
+    }
+}
+.canvas {
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
   
 }

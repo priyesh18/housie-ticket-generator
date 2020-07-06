@@ -1,6 +1,6 @@
 .callout {
     border: 1px solid black;
-    min-height: 90vh;
+    min-height: 95vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,5 +9,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
+    }
+    @media print {
+        display: none;
     }
 }

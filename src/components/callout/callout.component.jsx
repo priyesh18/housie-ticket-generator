@@ -1,10 +1,8 @@
 import React from 'react';
 import './callout.styles.scss';
-import TicketItem from '../ticket-item/ticket-item.component';
-// import html2canvas from 'html2canvas';
-import Example from '../example.component'
 import data from '../../image-data/image-data.json';
 
+import TicketItem from '../ticket-item/ticket-item.component';
 
 
 class Callout extends React.Component {
