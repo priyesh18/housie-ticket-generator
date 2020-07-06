@@ -17,6 +17,7 @@ class Callout extends React.Component {
     }
     onCalloutClick = () => {
         let prevPool = this.state.pool;
+        if(prevPool.length === 0) return;
         let selectedIndex = Math.floor(Math.random()*prevPool.length); // use pool from state in future
         let selectedItem = prevPool[selectedIndex];
         prevPool.splice(selectedIndex, 1);
@@ -39,7 +40,7 @@ class Callout extends React.Component {
 
             </div>
             <button onClick={this.onCalloutClick}>Callout Next</button>
-            <h2>Board</h2>
+        <h2>Board (Remaining: {this.state.pool.length})</h2>
             <p>(Items sorted by category and alphabetically)</p>
             <div className="board">
                 {
