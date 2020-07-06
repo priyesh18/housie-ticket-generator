@@ -45,7 +45,7 @@ class Callout extends React.Component {
                     this.state.data.map(
                         ({id, name, path}) => {
                             return (
-                                <TicketItem key={id} imageUrl={path} name={name}/>
+                                <TicketItem key={name+id} imageUrl={path} name={name}/>
                 
                             )
                         })
