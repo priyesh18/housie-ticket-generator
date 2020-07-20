@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/housie-ticket-generator/static/css/main.39cf1520.chunk.css",
-    "main.js": "/housie-ticket-generator/static/js/main.2631899f.chunk.js",
-    "main.js.map": "/housie-ticket-generator/static/js/main.2631899f.chunk.js.map",
+    "main.css": "/housie-ticket-generator/static/css/main.88324361.chunk.css",
+    "main.js": "/housie-ticket-generator/static/js/main.8ec1242f.chunk.js",
+    "main.js.map": "/housie-ticket-generator/static/js/main.8ec1242f.chunk.js.map",
     "runtime-main.js": "/housie-ticket-generator/static/js/runtime-main.be119fe3.js",
     "runtime-main.js.map": "/housie-ticket-generator/static/js/runtime-main.be119fe3.js.map",
     "static/js/2.688ff1c0.chunk.js": "/housie-ticket-generator/static/js/2.688ff1c0.chunk.js",
     "static/js/2.688ff1c0.chunk.js.map": "/housie-ticket-generator/static/js/2.688ff1c0.chunk.js.map",
     "index.html": "/housie-ticket-generator/index.html",
-    "precache-manifest.1bf67e3b3fcdf48f049a551e2ffd056f.js": "/housie-ticket-generator/precache-manifest.1bf67e3b3fcdf48f049a551e2ffd056f.js",
+    "precache-manifest.5756991cc62e55c6e321775bc184cb44.js": "/housie-ticket-generator/precache-manifest.5756991cc62e55c6e321775bc184cb44.js",
     "service-worker.js": "/housie-ticket-generator/service-worker.js",
-    "static/css/main.39cf1520.chunk.css.map": "/housie-ticket-generator/static/css/main.39cf1520.chunk.css.map",
+    "static/css/main.88324361.chunk.css.map": "/housie-ticket-generator/static/css/main.88324361.chunk.css.map",
     "static/js/2.688ff1c0.chunk.js.LICENSE.txt": "/housie-ticket-generator/static/js/2.688ff1c0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.be119fe3.js",
     "static/js/2.688ff1c0.chunk.js",
-    "static/css/main.39cf1520.chunk.css",
-    "static/js/main.2631899f.chunk.js"
+    "static/css/main.88324361.chunk.css",
+    "static/js/main.8ec1242f.chunk.js"
   ]
 }
