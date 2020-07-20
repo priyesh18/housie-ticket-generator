@@ -7,7 +7,7 @@ function dirTree(filename) {
         info = {
             path: filename,
             folder: path.dirname(filename).replace('images/',''),
-            name: path.basename(filename).replace('.jpg', '')
+            name: path.basename(filename).replace('.jpg', '').replace('.jpeg', '')
         };
         info.id = info.folder+info.name;
 

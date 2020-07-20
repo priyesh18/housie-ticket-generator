@@ -9,7 +9,7 @@ class Canvas extends React.Component {
         super();
         this.state = {
             data: data, 
-            count: 2
+            count: 6
            }
     }
     onCountChange = (e) => (
@@ -31,7 +31,7 @@ class Canvas extends React.Component {
                 <h3>Generate Tickets</h3>
                 <div className="input-box">
                     Enter number of tickets: 
-                    <input type="number" placeholder="2" onChange={this.onCountChange} step="2"/>
+                    <input type="number" placeholder="6" onChange={this.onCountChange} step="2"/>
                     <button onClick={() => (window.print())}>Print</button>
 
                 </div>
